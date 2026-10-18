@@ -1,0 +1,16 @@
+{
+	"versao": 1,
+	"atualizado": "2026-10-18",
+	"estudio": "HQ Games",
+	"sobre": "Lista única de apoiadores de todos os jogos da HQ Games. Cada jogo baixa este arquivo e mostra os nomes nos créditos. 'projetos' vazio (ou ausente) = aparece em todos os jogos.",
+	"niveis": [
+		{"id": "guardiao", "nome": "Guardiões do Sono", "ordem": 1},
+		{"id": "sonhador", "nome": "Sonhadores", "ordem": 2}
+	],
+	"apoiadores": [
+		{"nome": "Claython Rembosky", "nivel": "sonhador", "projetos": []},
+		{"nome": "Maykol Souza", "nivel": "sonhador", "projetos": []},
+		{"nome": "Luis Gustavo Hunzecher", "nivel": "sonhador", "projetos": []},
+		{"nome": "Luis Henrique Hunzecher", "nivel": "sonhador", "projetos": []}
+	]
+}
