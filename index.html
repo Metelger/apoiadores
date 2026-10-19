@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mural dos Sonhadores — HQ Games</title>
+<title>Mural dos Sonhadores — HQ Forge Studios</title>
 <style>
 	:root { --tinta: #2b2340; --papel: #fff4e0; --ouro: #ffd75e; --lilas: #6a5fa0; }
 	* { box-sizing: border-box; }
@@ -23,13 +23,13 @@
 <body>
 <main>
 	<h1>Mural dos Sonhadores</h1>
-	<p class="sub">Gente que ajudou os jogos da <b id="estudio">HQ Games</b> a existirem. Obrigado! Todos estes nomes aparecem nos créditos dos jogos.</p>
+	<p class="sub">Gente que ajudou os jogos da <b id="estudio">HQ Forge Studios</b> a existirem. Obrigado! Todos estes nomes aparecem nos créditos dos jogos.</p>
 	<div id="lista">Carregando…</div>
 	<footer>Atualizado em <span id="data">—</span>. Lista em <a href="apoiadores.json">apoiadores.json</a>.</footer>
 </main>
 <script>
 fetch("apoiadores.json", {cache: "no-store"}).then(r => r.json()).then(d => {
-	document.getElementById("estudio").textContent = d.estudio || "HQ Games";
+	document.getElementById("estudio").textContent = d.estudio || "HQ Forge Studios";
 	document.getElementById("data").textContent = d.atualizado || "—";
 	const lista = document.getElementById("lista");
 	lista.textContent = "";

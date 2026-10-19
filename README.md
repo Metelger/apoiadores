@@ -1,6 +1,6 @@
-# Apoiadores — HQ Games
+# Apoiadores — HQ Forge Studios
 
-Lista única de apoiadores de **todos os jogos** da HQ Games, publicada pelo GitHub Pages:
+Lista única de apoiadores de **todos os jogos** da HQ Forge Studios, publicada pelo GitHub Pages:
 
 - Mural (página para mostrar/divulgar): https://metelger.github.io/apoiadores/
 - Dados (o que os jogos baixam): https://metelger.github.io/apoiadores/apoiadores.json
