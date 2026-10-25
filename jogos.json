@@ -1,0 +1,12 @@
+{
+	"naninha": {
+		"nome": "Naninha — Sonhos de Bebê",
+		"curto": "Naninha",
+		"frase": "Um bebê, cinco sonhos e os monstrinhos da casa.",
+		"loja": "https://hq-forge-studios.itch.io/naninha",
+		"fundo": "naninha/fundo.png",
+		"banner": "naninha/banner.png",
+		"icone": "naninha/icone.png",
+		"cores": {"ceu": "#2a2456", "tinta": "#2b2340", "papel": "#fff4e0", "destaque": "#6a5fa0", "ouro": "#ffd75e", "estrela": "#f2a93b"}
+	}
+}

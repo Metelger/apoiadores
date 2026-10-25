@@ -1,16 +1,52 @@
 {
 	"versao": 1,
-	"atualizado": "2026-10-18",
+	"atualizado": "2026-10-25",
 	"estudio": "HQ Forge Studios",
-	"sobre": "Lista única de apoiadores de todos os jogos da HQ Forge Studios. Cada jogo baixa este arquivo e mostra os nomes nos créditos. 'projetos' vazio (ou ausente) = aparece em todos os jogos.",
+	"sobre": "Apoiadores de todos os jogos da HQ Forge Studios. 'jogos' = jogos que a pessoa apoiou (define em qual mural ela aparece como apoiadora). 'projetos' = em quais créditos o nome aparece; vazio = em todos os jogos.",
 	"niveis": [
-		{"id": "guardiao", "nome": "Guardiões do Sono", "ordem": 1},
-		{"id": "sonhador", "nome": "Sonhadores", "ordem": 2}
+		{
+			"id": "guardiao",
+			"nome": "Guardiões do Sono",
+			"ordem": 1
+		},
+		{
+			"id": "sonhador",
+			"nome": "Sonhadores",
+			"ordem": 2
+		}
 	],
 	"apoiadores": [
-		{"nome": "Claython Rembosky", "nivel": "sonhador", "projetos": []},
-		{"nome": "Maykol Souza", "nivel": "sonhador", "projetos": []},
-		{"nome": "Luis Gustavo Hunzecher", "nivel": "sonhador", "projetos": []},
-		{"nome": "Luis Henrique Hunzecher", "nivel": "sonhador", "projetos": []}
+		{
+			"nome": "Claython Rembosky",
+			"nivel": "sonhador",
+			"jogos": [
+				"naninha"
+			],
+			"projetos": []
+		},
+		{
+			"nome": "Maykol Souza",
+			"nivel": "sonhador",
+			"jogos": [
+				"naninha"
+			],
+			"projetos": []
+		},
+		{
+			"nome": "Luis Gustavo Hunzecher",
+			"nivel": "sonhador",
+			"jogos": [
+				"naninha"
+			],
+			"projetos": []
+		},
+		{
+			"nome": "Luis Henrique Hunzecher",
+			"nivel": "sonhador",
+			"jogos": [
+				"naninha"
+			],
+			"projetos": []
+		}
 	]
 }
